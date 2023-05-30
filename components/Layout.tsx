@@ -1,22 +1,17 @@
 import React from "react";
-import Link from "next/link";
+import Head from "../components/Head";
 import styles from "../styles/styles.module.css";
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
-    <main className={styles.main}>
-      <nav className="text-white">
-        <ul>
-          <li>
-            <Link href="/">Home</Link>
-          </li>
-          <li>
-            <Link href="/about">About</Link>
-          </li>
-        </ul>
-      </nav>
-      <div className="container h-full mx-auto text-black">{children}</div>
-    </main>
+    <div className="flex">
+      <div className="basis-1/2 lg:mx-auto sm:mx-5 mx-5 mt-5">
+        <Head />
+        <div className="container h-full mx-auto text-black bg-white">
+          {children}
+        </div>
+      </div>
+    </div>
   );
 };
 
