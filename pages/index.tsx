@@ -1,7 +1,6 @@
 import { Inter } from "next/font/google";
 import Loading from "@/components/Loading";
 import { useState } from "react";
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   const [pageLoading, setPageLoading] = useState(true);
