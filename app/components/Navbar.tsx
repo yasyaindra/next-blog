@@ -5,7 +5,7 @@ import React from "react";
 
 function Navbar() {
   const router = usePathname();
-  console.log(router);
+
   return (
     <nav>
       <ul className="flex gap-5 font-bold text-2xl mb-5">

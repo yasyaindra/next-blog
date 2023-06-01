@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <div>
-        <p className="font-light">
+        <p className="font-light text-justify">
           Hey, I am <span className="font-bold">Yasya Indra.</span> I work as
           software engineer who actively build project that might fit to any
           business.
