@@ -37,7 +37,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
       <p className="mt-0">{pubDate}</p>
       <article className="mt-4">
         <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
-        <p className="mt-5">
+        <p className="mt-5 hover:animate-bounce">
           <Link href="/blog">← Back</Link>
         </p>
       </article>

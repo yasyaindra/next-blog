@@ -6,6 +6,7 @@ import Loading from "./loading";
 const Blog = () => {
   return (
     <div>
+      {/* @ts-expect-error Server Component */}
       <Posts />
     </div>
   );
