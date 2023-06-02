@@ -10,22 +10,22 @@ function Navbar() {
     <nav>
       <ul className="flex gap-5 font-bold text-2xl mb-5">
         <li
-          className={`text-gray-600 duration-200 hover:text-gray-300 ${
-            router == "/" ? "text-gray-300" : ""
+          className={`text-white/90 duration-200 hover:text-white ${
+            router == "/" ? "text-white" : ""
           }`}
         >
           <Link href="/">Home</Link>
         </li>
         <li
-          className={`text-gray-600 duration-200 hover:text-gray-300 ${
-            router == "/about" ? "text-gray-300" : ""
+          className={`text-white/90 duration-200 hover:text-white ${
+            router == "/about" ? "text-white" : ""
           }`}
         >
           <Link href="/about">About</Link>
         </li>
         <li
-          className={`text-gray-600 duration-200 hover:text-gray-300 ${
-            router == "/blog" ? "text-gray-300" : ""
+          className={`text-white/90 duration-200 hover:text-white ${
+            router == "/blog" ? "text-white" : ""
           }`}
         >
           <Link href="/blog">Blog</Link>
